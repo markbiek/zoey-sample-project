@@ -12,7 +12,12 @@
 			"url": "https://github.com/markbiek/zoey-account-permissions.git"
 		}
 	],
+    "autoload": {
+		"psr-4": {
+			"App\\": "src"
+		}
+	},
     "require": {
-        "markbiek/zoey-account-permissions": "^1.0.0"
+        "vlucas/phpdotenv": "^5.4"
     }
 }
