@@ -1,0 +1,18 @@
+{
+    "name": "markbiek/zoey-sample-project",
+    "authors": [
+        {
+            "name": "Mark Biek",
+            "email": "info@biek.org"
+        }
+    ],
+    "repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/markbiek/zoey-account-permissions.git"
+		}
+	],
+    "require": {
+        "markbiek/zoey-account-permissions": "^1.0.0"
+    }
+}
