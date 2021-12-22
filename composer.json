@@ -1,25 +1,27 @@
 {
-    "name": "markbiek/zoey-sample-project",
-    "authors": [
-        {
-            "name": "Mark Biek",
-            "email": "info@biek.org"
-        }
-    ],
-    "repositories": [
+	"name": "markbiek/zoey-sample-project",
+	"authors": [
+		{
+			"name": "Mark Biek",
+			"email": "info@biek.org"
+		}
+	],
+	"repositories": [
 		{
 			"type": "vcs",
 			"url": "https://github.com/markbiek/zoey-account-permissions.git"
 		}
 	],
-    "autoload": {
+	"autoload": {
 		"psr-4": {
 			"App\\": "src"
 		}
 	},
-    "require": {
-        "vlucas/phpdotenv": "^5.4",
-        "robmorgan/phinx": "^0.12.9",
-        "fzaninotto/faker": "^1.9"
-    }
+	"require": {
+		"php": ">=7.4.0",
+		"vlucas/phpdotenv": "^5.4",
+		"robmorgan/phinx": "^0.12.9",
+		"fzaninotto/faker": "^1.9",
+		"illuminate/database": "^8.77"
+	}
 }
