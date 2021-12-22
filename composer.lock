@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca3ef3e84405cfa7927eb5bba98c1fec",
+    "content-hash": "5ef56adcf3cc987996872f9008e0e0c7",
     "packages": [
         {
             "name": "cakephp/core",
@@ -1111,6 +1111,46 @@
                 }
             ],
             "time": "2020-09-17T08:25:26+00:00"
+        },
+        {
+            "name": "markbiek/zoey-account-permissions",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/markbiek/zoey-account-permissions.git",
+                "reference": "36fc0b970eb7d2e10a8083a6879cd3d40f4fd2e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/markbiek/zoey-account-permissions/zipball/36fc0b970eb7d2e10a8083a6879cd3d40f4fd2e1",
+                "reference": "36fc0b970eb7d2e10a8083a6879cd3d40f4fd2e1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "require-dev": {
+                "pestphp/pest": "^1.21"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Zoey\\": "src",
+                    "Tests\\": "tests"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Mark Biek",
+                    "email": "info@biek.org"
+                }
+            ],
+            "description": "An account permissions system to limit the logged in account’s access to resources and actions on the frontend of an e-commerce website.",
+            "support": {
+                "source": "https://github.com/markbiek/zoey-account-permissions/tree/v1.0.0",
+                "issues": "https://github.com/markbiek/zoey-account-permissions/issues"
+            },
+            "time": "2021-12-22T17:17:37+00:00"
         },
         {
             "name": "nesbot/carbon",

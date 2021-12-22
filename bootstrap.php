@@ -1,10 +1,6 @@
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
 
-// TODO: This can be dropped once we've released an actual package
-require_once __DIR__ .
-	'/vendor/markbiek/zoey-account-permissions/vendor/autoload.php';
-
 // Load mock product data
 require_once __DIR__ . '/mocks.php';
 

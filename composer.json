@@ -23,6 +23,7 @@
 		"robmorgan/phinx": "^0.12.9",
 		"fzaninotto/faker": "^1.9",
 		"illuminate/database": "^8.77",
-		"jenssegers/blade": "^1.4"
+		"jenssegers/blade": "^1.4",
+		"markbiek/zoey-account-permissions": "^1.0"
 	}
 }
