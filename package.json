@@ -2,7 +2,7 @@
 	"name": "zoey-sample-project",
 	"version": "1.0.0",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"test": "./vendor/bin/pest",
 		"setup": "composer install && npm i && npm run migrate && npm run seed",
 		"migrate": "vendor/bin/phinx migrate",
 		"seed": "vendor/bin/phinx seed:run"

@@ -25,5 +25,8 @@
 		"illuminate/database": "^8.77",
 		"jenssegers/blade": "^1.4",
 		"markbiek/zoey-account-permissions": "^1.0"
+	},
+	"require-dev": {
+		"pestphp/pest": "^1.21"
 	}
 }
