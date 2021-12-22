@@ -1118,12 +1118,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/markbiek/zoey-account-permissions.git",
-                "reference": "36fc0b970eb7d2e10a8083a6879cd3d40f4fd2e1"
+                "reference": "1319a1081988756ac48d5126434cb254abeb551d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/markbiek/zoey-account-permissions/zipball/36fc0b970eb7d2e10a8083a6879cd3d40f4fd2e1",
-                "reference": "36fc0b970eb7d2e10a8083a6879cd3d40f4fd2e1",
+                "url": "https://api.github.com/repos/markbiek/zoey-account-permissions/zipball/1319a1081988756ac48d5126434cb254abeb551d",
+                "reference": "1319a1081988756ac48d5126434cb254abeb551d",
                 "shasum": ""
             },
             "require": {
@@ -1150,7 +1150,7 @@
                 "source": "https://github.com/markbiek/zoey-account-permissions/tree/v1.0.0",
                 "issues": "https://github.com/markbiek/zoey-account-permissions/issues"
             },
-            "time": "2021-12-22T17:17:37+00:00"
+            "time": "2021-12-22T20:46:55+00:00"
         },
         {
             "name": "nesbot/carbon",
