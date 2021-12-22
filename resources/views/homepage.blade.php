@@ -35,7 +35,7 @@
 		@foreach ($productLists as $list)
 			<h3>{{ $list->name }}</h3>
 
-			@if (!$impersonating->checkACL('product_list_id', $list->id))
+			@if (!$impersonating->hasProductListACL($list))
 				<p class="font-bold text-italic text-sm">This user does not have access to this product list.</p>
 			@endif
 
