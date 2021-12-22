@@ -5,6 +5,9 @@ require_once __DIR__ . '/vendor/autoload.php';
 require_once __DIR__ .
 	'/vendor/markbiek/zoey-account-permissions/vendor/autoload.php';
 
+// Load mock product data
+require_once __DIR__ . '/mocks.php';
+
 use Illuminate\Database\Capsule\Manager as DB;
 use Jenssegers\Blade\Blade;
 
