@@ -6,6 +6,7 @@ require_once __DIR__ .
 	'/vendor/markbiek/zoey-account-permissions/vendor/autoload.php';
 
 use Illuminate\Database\Capsule\Manager as DB;
+use Jenssegers\Blade\Blade;
 
 // Bootup our environment config
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
@@ -25,3 +26,12 @@ $db->addConnection([
 ]);
 $db->setAsGlobal();
 $db->bootEloquent();
+
+// Bootup our template engine
+$GLOBALS['blade'] = new Blade('resources/views', 'cache');
+
+if (!function_exists('render')) {
+	function render(string $view, array $vars = []) {
+		echo $GLOBALS['blade']->render($view, $vars);
+	}
+}
