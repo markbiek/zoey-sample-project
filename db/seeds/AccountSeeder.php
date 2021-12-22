@@ -22,9 +22,14 @@ class AccountSeeder extends AbstractSeed {
 		$data = [];
 
 		for ($i = 0; $i < 5; $i++) {
+			// Make the first account an admin
+			// Everyone else is randomly a Widget or Gizmo customer
+			$roleId = $i == 0 ? 1 : rand(2, 3);
+
 			$data[] = [
 				'name' => "{$faker->firstName} {$faker->lastName}",
 				'overdue' => rand(1, 2) % 2 == 0,
+				'role_id' => $roleId,
 			];
 		}
 
